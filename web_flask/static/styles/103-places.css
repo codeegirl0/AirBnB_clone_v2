@@ -1,0 +1,128 @@
+
+
+
+/* Name and price  */
+.places .title_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+/*  flexbox */
+.places {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/* Article  */
+.places article {
+  border: 1px solid #ff5a5f;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px;
+  width: 390px;
+}
+/* Price by night  */
+.places .price_by_night {
+  align-items: center;
+  border: 4px solid #ff5a5f;
+  border-radius: 50%;
+  color: #ff5a5f;
+  justify-content: center;
+  min-width: 70px;
+  display: flex;
+  font-size: 30px;
+  height: 70px;
+}
+
+/* information */
+.places .information {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  justify-content: space-around;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+
+/* Padding   */
+.places .user {
+  margin: 20px auto 20px auto;
+}
+
+/* reviews classes */
+.places .amenities,
+.places .reviews {
+  margin-top: 20px;
+}
+/* sticker */
+.places .max_guest,
+.places .number_rooms,
+.places .number_bathrooms{
+  width: 100px;
+}
+
+
+/* outer  style */
+.places .amenities i {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  text with icon */
+.places .amenities p {
+  margin-top: 20px;
+}
+
+/* Header 1 style */
+.places h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: .67em 0 .67em 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .places h1 {
+    width: 95%;
+  }
+}
+
+/* Header 2 style */
+.places h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* header 2 style */
+.places .amenities h2,
+.places .reviews h2 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*  header 3 style */
+.places .reviews h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  margin-top: 20px;
+}
